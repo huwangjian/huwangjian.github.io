@@ -73,7 +73,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //fonts.useso.com
 
   # Global font settings used on <body> element.
   global:
@@ -85,7 +85,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Roboto 
 
   # Font settings for posts
   # Fallback to `global` font settings.
@@ -98,13 +98,13 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
-    size:
+    family: Lobster Two
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: PT Mono
 
 
 
@@ -230,7 +230,7 @@ auto_excerpt:
 # MathJax Support
 mathjax:
   enable: enable
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js
 
 
 # Swiftype Search API Key
@@ -240,10 +240,10 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname: mrhu
+duoshuo_shortname: mrhu
 
 # Disqus
-#disqus_shortname:
+#disqus_shortname: mrhu
 
 # Baidu Share
 # Available value:
